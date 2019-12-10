@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install sbcl
-      run: apt-get install sbcl
+      run: sudo apt-get install sbcl
     - name: Run test
       run: bash run.sh
